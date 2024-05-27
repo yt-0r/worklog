@@ -1,4 +1,22 @@
-[2024-05-27 17:00:25] [INFO] => Start scrypt
-[2024-05-27 17:00:25] [DEBUG] => Started arguments {'worker': 'all', 'issuekey': 'DIRECTORY-2124', 'year': '2024', 'month': 'all', 'exel': 'exel', 'insert': 'insert'}
-[2024-05-27 17:00:25] [DEBUG] => Starting new HTTP connection (1): jiradev.its-sib.ru:80
-[2024-05-27 17:00:30] [DEBUG] => http://jiradev.its-sib.ru:80 "GET /rest/scriptrunner/latest/custom/getStaffWorklog?query=getNew&date=27.05.2024 HTTP/1.1" 200 None
+[2024-05-27 17:14:54] [INFO] => Start scrypt
+[2024-05-27 17:14:54] [DEBUG] => Started arguments {'worker': 'all', 'issuekey': 'DIRECTORY-2124', 'year': '2024', 'month': 'all', 'exel': 'exel', 'insert': 'insert'}
+[2024-05-27 17:14:54] [DEBUG] => Starting new HTTP connection (1): jiradev.its-sib.ru:80
+[2024-05-27 17:14:54] [DEBUG] => http://jiradev.its-sib.ru:80 "GET /rest/scriptrunner/latest/custom/getStaffWorklog?query=getNew&date=26.05.2024 HTTP/1.1" 200 None
+[2024-05-27 17:14:55] [INFO] => C:\Users\cooln\PycharmProjects\worklog\Табель all.xlsx
+[2024-05-27 17:14:55] [INFO] => Start creating excel
+[2024-05-27 17:14:55] [INFO] => Start insert Май
+[2024-05-27 17:14:55] [INFO] => Start insert exel NEW
+[2024-05-27 17:14:55] [INFO] => Stop insrt exel NEW
+[2024-05-27 17:14:55] [INFO] => Start insert exel ADD 1
+[2024-05-27 17:14:55] [INFO] => Start insert exel ADD 18
+[2024-05-27 17:14:55] [INFO] => Start insert exel ADD 19
+[2024-05-27 17:14:55] [INFO] => Finish insert Май
+[2024-05-27 17:14:55] [INFO] => Finish creating excel
+[2024-05-27 17:14:56] [DEBUG] => Starting new HTTP connection (1): jiradev.its-sib.ru:80
+[2024-05-27 17:14:56] [DEBUG] => http://jiradev.its-sib.ru:80 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+[2024-05-27 17:14:56] [DEBUG] => http://jiradev.its-sib.ru:80 "GET /rest/api/2/field HTTP/1.1" 200 None
+[2024-05-27 17:14:56] [DEBUG] => http://jiradev.its-sib.ru:80 "GET /rest/api/2/search?jql=issuekey+%3D+%22DIRECTORY-2124%22+AND+attachments+is+not+EMPTY&startAt=0&validateQuery=True&fields=issuekey&fields=+attachment&maxResults=50 HTTP/1.1" 200 None
+[2024-05-27 17:14:56] [DEBUG] => http://jiradev.its-sib.ru:80 "DELETE /rest/api/2/attachment/82182 HTTP/1.1" 403 None
+[2024-05-27 17:14:56] [DEBUG] => http://jiradev.its-sib.ru:80 "DELETE /rest/api/2/attachment/88000 HTTP/1.1" 204 0
+[2024-05-27 17:14:56] [DEBUG] => http://jiradev.its-sib.ru:80 "GET /rest/api/2/issue/DIRECTORY-2124 HTTP/1.1" 200 None
+[2024-05-27 17:14:56] [DEBUG] => http://jiradev.its-sib.ru:80 "POST /rest/api/2/issue/DIRECTORY-2124/attachments HTTP/1.1" 200 None
